@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <script src="./socket.io/socket.io.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+          Chat Grupal
+        </div>
+        <div class="card-body">
+          <input class="form-control col-md-3" id="chat-mail" type="text" placeholder="email@email.com">
+          <p class="card-text border col-md-8 mt-4" id="chat-box"></p>
+          <div class="d-inline-flex">
+            <input class="form-control col-md-12 mr-2" id="chat-msg" type="text" placeholder="Ingresa un mensaje...">
+            <a href="#" class="btn btn-primary col-md-6" id="chat-btn">Enviar!</a>
+          </div>
+        </div>
+      </div>
+      
+        <script src="scripts/ioHandler.js"></script>
+
+</body>
+</html>
